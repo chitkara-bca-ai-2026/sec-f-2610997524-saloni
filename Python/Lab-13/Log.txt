@@ -1,0 +1,16 @@
+PROCESS:
+First created a variable inventory to contain the list.
+Created a while loop thet runs till break is not given i.e added.
+used print function to create the choice list.
+Created a variable - choice , that lets me use if-elif-else by taking input from the user
+made the if-elif-else decision making statements with the 1 number using for loop to display the inventory one at a time.
+made so that the choice == 5 has a break function so that the loop ends and not run continously.
+in else printed an invalid message for when user enters and invalid number.
+
+
+
+MISTAKES AND CORRECTION:
+First tried the While choice != 5 in loop but it only ran once (after completing the numbered task ) then stopped so could either print the options and the choice question after 
+every choice but that would be too time consuming.
+Did the while true method with the option 5 displaying a thank you message and then break so the whole loop ends.
+in 1st choice for the print function in loop did print(i,".", inventory[i]) but it resulted in number starting from zero so added the +1.
